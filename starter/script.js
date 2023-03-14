@@ -20,3 +20,7 @@ fruitProcessor(5,8);
 // pour avoir le jus, il faut le stocher dans un verre
 var glace = fruitProcessor(5,8);
 console.log(glace);
+
+// ou pas vu que la fonction retourne une chaîne
+console.log(fruitProcessor(5,8));
+
