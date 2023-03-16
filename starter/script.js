@@ -11,4 +11,4 @@ function fruitProcessor(apples, oranges) {
     return juice;
   }
   
-  fruitProcessor(2,3);
+  console.log(fruitProcessor(2,3));
