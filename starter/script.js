@@ -1,16 +1,13 @@
 'use strict';
+//1. Create a arrow function 'calcAverage' to calculate the average of 3 scores
+const calcAverage = (a,b,c) => (a + b + c)/3;
 
-const calcAge = function(birthYeah){
-    return 2037 -birthYeah;
-}
+let DolphinsScore1 = 44, 
+DolphinsScore2 =  23,
+DolphinsScore3 = 71;
 
+let KoalasScore1 = 65,
+KoalasScore2 = 54,
+KoalasScore3 = 49;
+//console.log(`${calcAverage(DolphinsScore1, DolphinsScore2, DolphinsScore3)}`)
 
-const yearsUntilRetirement = function(birthYeah, firstName) {
-    const age = calcAge(birthYeah)
-    const retirement = 65 - age;
-    return retirement > 0 ? retirement : -1;
-    //return `${firstName} retires in ${retirement} years`;
-  }
-  console.log(yearsUntilRetirement(1991, 'Jonas')); 
-  console.log(yearsUntilRetirement(1970, 'Bob'));
-  
