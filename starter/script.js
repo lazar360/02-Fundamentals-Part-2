@@ -1,14 +1,15 @@
 'use strict';
 
-function cutFruitPieces(fruit){
-    return fruit * 4;
+const calcAge = function(birthYeah){
+    return 2037 -birthYeah;
 }
 
-function fruitProcessor(apples, oranges) {
-    const applePieces = cutFruitPieces(apples);
-    const orangePieces = cutFruitPieces(apples);
-    const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges.`;
-    return juice;
+
+const yearsUntilRetirement = function(birthYeah, firstName) {
+    const age = 2037 - calcAge(birthYeah)
+    const retirement = 65 - age;
+    // return retirement;
+    return `${firstName} retires in ${retirement} years`;
   }
+  console.log(yearsUntilRetirement(1991, 'Jonas')); console.log(yearsUntilRetirement(1980, 'Bob'));
   
-  console.log(fruitProcessor(2,3));
