@@ -11,3 +11,15 @@ KoalasScore2 = 54,
 KoalasScore3 = 49;
 //console.log(`${calcAverage(DolphinsScore1, DolphinsScore2, DolphinsScore3)}`)
 
+const averageDolphinScore = calcAverage(DolphinsScore1, DolphinsScore2, DolphinsScore3);
+const averageKoalaScore = calcAverage(KoalasScore1, KoalasScore2, KoalasScore3);
+
+function checkWinner(averageDolphinScore, averageKoalaScore) {
+
+    const winner = averageDolphinScore > averageKoalaScore ? "Dolphin" : "Koala";
+    console.log(`The winner is ${winner}.`)
+
+}
+
+checkWinner(averageDolphinScore, averageKoalaScore);
+
