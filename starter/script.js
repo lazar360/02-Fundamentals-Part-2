@@ -34,3 +34,7 @@ console.log(years[years.length - 1]);
 
 years.forEach( element => age.push(calcAge(element)));
 console.log(age);
+
+// calculer l'âge avec 1ère entrée, 2ème et dernière. On peut mettre des expressions dans un array
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 2]), calcAge(years[years.length - 1])];
+console.log(ages);
