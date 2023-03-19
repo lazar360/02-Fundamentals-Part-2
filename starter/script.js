@@ -33,5 +33,7 @@ const calcAge = function(birthYeah){
 const years = [1990, 1967, 2002, 2010, 2018] 
 
 
+console.log(years[years.length - 1]);
+
 
 
