@@ -26,14 +26,11 @@ const firstName = 'jonas';
 const jonas = [firstName, 'Nom', 2037 - 1991, 'teacher', friends];
 console.log(jonas);*/
 
-// exercice
-const calcAge = function(birthYeah){
-    return 2037 - birthYeah;
-}
+// exercice : calculer l'âge en fonction d'un tableau de valeurs
+const calcAge = birthYeah => 2037 - birthYeah;
 const years = [1990, 1967, 2002, 2010, 2018] 
-
-
+const age  = [];
 console.log(years[years.length - 1]);
 
-
-
+years.forEach( element => age.push(calcAge(element)));
+console.log(age);
