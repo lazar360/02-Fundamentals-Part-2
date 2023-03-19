@@ -18,6 +18,14 @@ console.log(friends[friends.length - 1]);
 friends[2] = 'Jay';
 console.log(friends);
 
+// on ne peut pas remplacer toutes les valeurs d'un tableau déclaré en constante
+// friends = ['Bob', 'Alice']
+
+// on peut inclure tout type de valeur et des variables dans le tableau
+const firstName = 'jonas';
+const jonas = [firstName, 'Nom', 2037 - 1991, 'teacher', friends];
+console.log(jonas);
+
 
 
 
