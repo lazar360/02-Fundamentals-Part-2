@@ -1,7 +1,7 @@
 'use strict';
 
 // créer un tableau
-const friends = ['Michael', 'John', 'Peter'];
+/*const friends = ['Michael', 'John', 'Peter'];
 const years = new Array(1991, 2000, 2022);
 
 // accéder au tableau
@@ -24,7 +24,13 @@ console.log(friends);
 // on peut inclure tout type de valeur et des variables dans le tableau
 const firstName = 'jonas';
 const jonas = [firstName, 'Nom', 2037 - 1991, 'teacher', friends];
-console.log(jonas);
+console.log(jonas);*/
+
+// exercice
+const calcAge = function(birthYeah){
+    return 2037 - birthYeah;
+}
+const years = [1990, 1967, 2002, 2010, 2018] 
 
 
 
