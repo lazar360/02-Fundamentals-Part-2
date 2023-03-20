@@ -8,5 +8,7 @@ const jonas = {
     friends :['John', 'Michael', 'Steven']
 };
 
-console.log(`Hello ! My firste name is ${jonas.firstName}.
-I have a lot of friends : ${jonas.friends}`);
+const nameKey = 'Name';
+console.log(jonas['first'+nameKey]);
+console.log(jonas['last'+nameKey]);
+//console.log(jonas.'last'+nameKey);
