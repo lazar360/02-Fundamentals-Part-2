@@ -9,9 +9,14 @@ friends.push('Jay');
 // Ajoute une entrée au début de la liste
 friends.unshift('John');
 
-// Enlève un élément
+// Enlève un élément à la fin de la liste
 friends.pop();
-console.log(friends);
 
+// Enlève un élément au début de la liste
+friends.shift();
 
+// Indique l'index de la liste
+console.log(friends.indexOf('John'));
 
+// Retourne true si l'élément est dans la liste
+console.log(friends.includes('John'));
