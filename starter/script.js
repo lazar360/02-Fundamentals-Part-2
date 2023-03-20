@@ -12,3 +12,6 @@ const nameKey = 'Name';
 console.log(jonas['first'+nameKey]);
 console.log(jonas['last'+nameKey]);
 //console.log(jonas.'last'+nameKey);
+
+const interestedIn = prompt('What do you want to know about Jonas ? Choose beetween firstname, lastname,..')
+console.log(jonas[interestedIn]);
