@@ -20,3 +20,8 @@ console.log(friends.indexOf('John'));
 
 // Retourne true si l'élément est dans la liste
 console.log(friends.includes('John'));
+friends.push(42);
+console.log(friends.includes('42'));// égalité stricte donc retourne false
+
+
+
