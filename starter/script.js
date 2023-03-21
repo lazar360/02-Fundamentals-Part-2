@@ -20,3 +20,8 @@ if(jonas[interestedIn]) {
 } else {
     console.log('Wrong request');
 }
+
+jonas.location = 'Portugal';
+jonas['twitter'] = '@jonas.com';
+console.log(jonas);
+
