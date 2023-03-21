@@ -15,4 +15,8 @@ console.log(jonas['last'+nameKey]);
 
 const interestedIn = prompt('What do you want to know about Jonas ? Choose beetween firstname, lastname,..')
 
-if(jonas[interestedIn]) console.log(jonas[interestedIn]);
+if(jonas[interestedIn]) {
+    console.log(jonas[interestedIn]);
+} else {
+    console.log('Wrong request');
+}
