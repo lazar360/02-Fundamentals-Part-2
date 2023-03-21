@@ -3,25 +3,13 @@
 const jonas = {
     firstName : 'Jonas',
     lastName : 'Schmedtmann',
-    age : 2037 - 1991,
+    birthYeah : 1991,
     job : 'teacher',
-    friends :['John', 'Michael', 'Steven']
+    friends :['John', 'Michael', 'Steven'],
+    hasDriversLicence : true,
+
+    calcAge: function(birthYeah) {
+        return 2037 - birthYeah;
+    }
 };
-
-const nameKey = 'Name';
-console.log(jonas['first'+nameKey]);
-console.log(jonas['last'+nameKey]);
-//console.log(jonas.'last'+nameKey);
-
-const interestedIn = prompt('What do you want to know about Jonas ? Choose beetween firstname, lastname,..')
-
-if(jonas[interestedIn]) {
-    console.log(jonas[interestedIn]);
-} else {
-    console.log('Wrong request');
-}
-
-jonas.location = 'Portugal';
-jonas['twitter'] = '@jonas.com';
-console.log(jonas);
 
