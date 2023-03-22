@@ -13,3 +13,5 @@ const jonas = {
     }
 };
 
+console.log(jonas.calcAge(2000));
+
