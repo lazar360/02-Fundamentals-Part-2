@@ -14,4 +14,6 @@ const jonas = {
 };
 
 console.log(jonas.calcAge(2000));
+console.log(jonas['calcAge'](2000));
+
 
