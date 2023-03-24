@@ -1,22 +1,17 @@
 'use strict';
 
-const jonas = {
-    firstName : 'Jonas',
-    lastName : 'Schmedtmann',
-    birthYeah : 1991,
-    job : 'teacher',
-    friends :['John', 'Michael', 'Steven'],
-    hasDriversLicence : true,
+// console.log('Lifting weights repetition 1');
+// console.log('Lifting weights repetition 2');
+// console.log('Lifting weights repetition 3');
+// console.log('Lifting weights repetition 4');
+// console.log('Lifting weights repetition 5');
+// console.log('Lifting weights repetition 6');
+// console.log('Lifting weights repetition 7');
+// console.log('Lifting weights repetition 8');
+// console.log('Lifting weights repetition 9');
+// console.log('Lifting weights repetition 10');
 
-    calcAge: function() {
-        this.age = 2037 - this.birthYeah;
-        return this.age;
-    },
-
-    summary: function() {
-        console.log(`${this.firstName} is a ${this.calcAge()} years old ${this.job} and ${this.hasDriversLicence ?' he has a driver license' : ' he doesn\'t have a driver license'}`)  
-    }
-};
-
-jonas.summary();
+for(let i = 1; i <= 10; i++){
+    console.log(`Lifting weights repetition ${i}`);
+}
 
