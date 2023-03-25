@@ -8,16 +8,22 @@ const jonasArray = [
     ['Michale', 'Peters', 'Steven'],
     true
 ];
-
-const types = []; 
  
+// continue and break the loop
+console.log('ONLY STRING');
 for(let i = 0; i < jonasArray.length; i++){
-    console.log(`Dans jonasArray à l'index ${i}, il y a ${jonasArray[i]}`);
-
-    types.push(typeof jonasArray[i]);
-
+    if(typeof jonasArray[i] !== "string") continue;
+    console.log(jonasArray[i]);
 }
 
-console.log(types);
+console.log('BREAK WITH NUMBER');
+for(let i = 0; i < jonasArray.length; i++){
+    if(typeof jonasArray[i] === "number") break;
+    console.log(jonasArray[i]);
+}
+
+
+
+
 
 
