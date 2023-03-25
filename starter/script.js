@@ -8,7 +8,14 @@ const jonasArray = [
     ['Michale', 'Peters', 'Steven']
 ];
 
-for(let i = 0; i < jonasArray.length; i++){
-    console.log(`Dans jonasArray à l'index ${i}, il y a ${jonasArray[i]}`);
+// forleti 
+// for(let i = 0; i < jonasArray.length; i++){
+//     console.log(`Dans jonasArray à l'index ${i}, il y a ${jonasArray[i]}`);
+// }
+
+// forof
+for(var jonasIndex of jonasArray){
+    console.log(`Dans jonasArray, il y a ${jonasIndex}`);
 }
+
 
