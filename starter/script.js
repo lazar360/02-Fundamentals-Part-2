@@ -5,17 +5,19 @@ const jonasArray = [
     'Schmidt',
     2037 - 1991,
     'teacher',
-    ['Michale', 'Peters', 'Steven']
+    ['Michale', 'Peters', 'Steven'],
+    true
 ];
 
-// forleti 
-// for(let i = 0; i < jonasArray.length; i++){
-//     console.log(`Dans jonasArray à l'index ${i}, il y a ${jonasArray[i]}`);
-// }
+const types = []; 
+ 
+for(let i = 0; i < jonasArray.length; i++){
+    console.log(`Dans jonasArray à l'index ${i}, il y a ${jonasArray[i]}`);
 
-// forof
-for(var jonasIndex of jonasArray){
-    console.log(`Dans jonasArray, il y a ${jonasIndex}`);
+    types.push(typeof jonasArray[i]);
+
 }
+
+console.log(types);
 
 
