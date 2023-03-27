@@ -1,8 +1,14 @@
 'use strict';
 
-let random = Math.trunc(Math.random()*6)+1;
+let dice = Math.trunc(Math.random()*6)+1;
 
-console.log(random);
+while(dice !== 6){
+     console.log(`You roll a ${dice} dice`);
+     dice = Math.trunc(Math.random()*6)+1;
+ }
+ console.log(`You roll a  6 dice`); 
+
+
 
 
 
